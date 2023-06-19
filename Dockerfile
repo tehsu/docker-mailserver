@@ -1,4 +1,4 @@
-FROM docker.io/debian:11-slim
+FROM docker.io/debian:12-slim
 
 ARG VCS_VER
 ARG VCS_REF
