@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: delete-old-branch
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Create contributors-update branch
         uses: peterjgrainger/action-create-branch@v2.1.0
